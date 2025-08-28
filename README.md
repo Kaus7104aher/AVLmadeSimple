@@ -1,12 +1,62 @@
-# React + Vite
+AVL Tree Visualizer 🌳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo: AVL Tree Made Simple
 
-Currently, two official plugins are available:
+An interactive AVL Tree visualizer built with React, designed to help students and developers understand how AVL trees (self-balancing binary search trees) work in practice.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+With this tool, you can insert, delete, and traverse nodes while watching the tree rebalance itself through rotations in real time.
 
-## Expanding the ESLint configuration
+✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔹 Insert nodes into the AVL Tree.
+
+🔹 Delete nodes and watch the tree rebalance automatically.
+
+🔹 Tree Traversals:
+
+In-order
+
+Pre-order
+
+Post-order
+
+Level-order (Breadth-first)
+
+🔹 Real-time visualization of rotations (LL, RR, LR, RL).
+
+🔹 Easy to use, responsive, and deployed online.
+
+📸 Demo
+
+👉 Try it live here: avltreemadesimple.netlify.app
+
+⚡ Why This Project?
+
+Understanding how AVL trees rebalance is often difficult when studied only theoretically.
+This visualizer helps by:
+
+Showing how rotations happen step by step.
+
+Helping students learn different traversals interactively.
+
+Acting as a real-time learning tool to see AVL balancing in action.
+
+🛠️ Tech Stack
+
+Frontend: React (with Hooks)
+
+Tree Rendering: SVG / Canvas
+
+Deployment: Netlify
+
+App will be running at: http://localhost:3000/
+
+📚 Example Usage
+
+Insert nodes: 50 → 30 → 70 → 20 → 40 → 10.
+
+Watch LL Rotation happen automatically.
+
+Delete a node: remove 30 → AVL Tree rebalances.
+
+Try in-order traversal → values will be sorted.
