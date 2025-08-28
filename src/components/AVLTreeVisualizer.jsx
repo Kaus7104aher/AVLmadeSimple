@@ -28,7 +28,7 @@ const AVLTreeVisualizer = () => {
   const [inputValue, setInputValue] = useState('');
   const [searchInput, setSearchInput] = useState('');
   const [searchResult, setSearchResult] = useState(null);
-  const [animationSpeed, setAnimationSpeed] = useState(100);
+  const [animationSpeed, setAnimationSpeed] = useState(1000);
   const [isAnimating, setIsAnimating] = useState(false);
 
   // Handlers
