@@ -33,5 +33,3 @@ Frontend: React (with Hooks)
 Tree Rendering: SVG / Canvas
 Deployment: Netlify
 
-App will be running at: http://localhost:3000/
-
