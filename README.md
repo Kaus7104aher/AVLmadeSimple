@@ -1,7 +1,5 @@
 AVL Tree Visualizer 🌳
 
-🚀 Live Demo: AVL Tree Made Simple
-
 An interactive AVL Tree visualizer built with React, designed to help students and developers understand how AVL trees (self-balancing binary search trees) work in practice.
 With this tool, you can insert, delete, and traverse nodes while watching the tree rebalance itself through rotations in real time.
 
@@ -19,7 +17,7 @@ With this tool, you can insert, delete, and traverse nodes while watching the tr
 
 📸 Demo
 
-👉 Try it live here: avltreemadesimple.netlify.app
+👉 Try it live here: https://avltreemadesimple.netlify.app/
 
 ⚡ Why This Project?
 
